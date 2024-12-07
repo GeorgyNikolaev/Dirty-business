@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="339767f5-cd59-454a-a951-9f8bbcb5ba08" name="Changes" comment="Добавил кастомную и прелобученную U-Net модели.">
+      <change afterPath="$PROJECT_DIR$/U-Net_model/on_pyTorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-docker/infer_by_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-docker/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-docker/unet_model_1.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710275253_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710277054_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710322071_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710370672_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710381477_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710390473_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710399478_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710430072_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710458871_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710584874_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710604665_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710809853_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710811652_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710813452_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710815253_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710835053_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710847680_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710917853_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711009681_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711090673_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711119479_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711177052_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711178852_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711178872_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711180652_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711182453_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711184253_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711186053_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711187868_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711256271_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711268872_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nornikel-docker/unet_model_1.keras" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U-Net_model/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/U-Net_model/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_data.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GeorgyNikolaev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f1478782-1e45-4bc9-98d1-90b4ee199bd8" />
+        <option name="url" value="git@github.com:GeorgyNikolaev/Dirty-business.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2pmEWE6pIrcQI3eW5DniYJ8aCF1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.on_pyTorch.executor": "Run",
+    "Python.read_data.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_base.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Python/Dirty-business/custom-docker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "PyScientificConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\Dirty-business\custom-docker" />
+      <recent name="D:\Python\Dirty-business\nornikel-docker" />
+      <recent name="D:\Python\Dirty-business" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\Dirty-business\train_dataset\baseline" />
+      <recent name="D:\Python\Dirty-business\train_dataset" />
+      <recent name="D:\Python\Dirty-business" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c69650fc56ca-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15619.17" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="339767f5-cd59-454a-a951-9f8bbcb5ba08" name="Changes" comment="Сделана первая версия простой модели" />
+      <created>1733362879674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733362879674</updated>
+      <workItem from="1733362880693" duration="3412000" />
+      <workItem from="1733517860486" duration="29995000" />
+    </task>
+    <task id="LOCAL-00001" summary="Добавил кастомную и прелобученную U-Net модели.">
+      <option name="closed" value="true" />
+      <created>1733365731779</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733365731779</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Сделана первая версия простой модели" />
+    <MESSAGE value="Добавил кастомную и прелобученную U-Net модели." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил кастомную и прелобученную U-Net модели." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Dirty_business$test.coverage" NAME="test Coverage Results" MODIFIED="1733545807912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nornikel-docker" />
+    <SUITE FILE_PATH="coverage/Dirty_business$main.coverage" NAME="main Coverage Results" MODIFIED="1733547846218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/U-Net_model" />
+    <SUITE FILE_PATH="coverage/Dirty_business$read_data.coverage" NAME="read_data Coverage Results" MODIFIED="1733531754434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Dirty_business$test_base.coverage" NAME="test_base Coverage Results" MODIFIED="1733523976916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train_dataset" />
+    <SUITE FILE_PATH="coverage/Dirty_business$on_pyTorch.coverage" NAME="on_pyTorch Coverage Results" MODIFIED="1733554097216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/U-Net_model" />
+  </component>
+</project>
