@@ -4,47 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="339767f5-cd59-454a-a951-9f8bbcb5ba08" name="Changes" comment="Добавил кастомную и прелобученную U-Net модели.">
-      <change afterPath="$PROJECT_DIR$/U-Net_model/on_pyTorch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-docker/infer_by_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-docker/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-docker/unet_model_1.keras" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710275253_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710277054_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710322071_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710370672_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710381477_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710390473_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710399478_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710430072_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710458871_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710584874_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710604665_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710809853_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710811652_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710813452_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710815253_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710835053_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710847680_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1710917853_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711009681_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711090673_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711119479_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711177052_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711178852_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711178872_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711180652_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711182453_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711184253_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711186053_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711187868_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711256271_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/open_img/1711268872_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nornikel-docker/unet_model_1.keras" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Net_model/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/U-Net_model/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_data.py" afterDir="false" />
+    <list default="true" id="339767f5-cd59-454a-a951-9f8bbcb5ba08" name="Changes" comment="Это пиздец...">
+      <change afterPath="$PROJECT_DIR$/U-Net_model/torch_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U-Net_model/on_pyTorch.py" beforeDir="false" afterPath="$PROJECT_DIR$/U-Net_model/on_pyTorch.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +64,7 @@
     "Python.read_data.executor": "Run",
     "Python.test.executor": "Run",
     "Python.test_base.executor": "Run",
+    "Python.torch_2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -141,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733362879674</updated>
       <workItem from="1733362880693" duration="3412000" />
-      <workItem from="1733517860486" duration="29995000" />
+      <workItem from="1733517860486" duration="34646000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил кастомную и прелобученную U-Net модели.">
       <option name="closed" value="true" />
@@ -151,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733365731779</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Это пиздец...">
+      <option name="closed" value="true" />
+      <created>1733560170787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733560170787</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,13 +143,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделана первая версия простой модели" />
     <MESSAGE value="Добавил кастомную и прелобученную U-Net модели." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил кастомную и прелобученную U-Net модели." />
+    <MESSAGE value="Это пиздец..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Это пиздец..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Dirty_business$test.coverage" NAME="test Coverage Results" MODIFIED="1733545807912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nornikel-docker" />
     <SUITE FILE_PATH="coverage/Dirty_business$main.coverage" NAME="main Coverage Results" MODIFIED="1733547846218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/U-Net_model" />
     <SUITE FILE_PATH="coverage/Dirty_business$read_data.coverage" NAME="read_data Coverage Results" MODIFIED="1733531754434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Dirty_business$test_base.coverage" NAME="test_base Coverage Results" MODIFIED="1733523976916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train_dataset" />
-    <SUITE FILE_PATH="coverage/Dirty_business$on_pyTorch.coverage" NAME="on_pyTorch Coverage Results" MODIFIED="1733554097216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/U-Net_model" />
+    <SUITE FILE_PATH="coverage/Dirty_business$torch_2.coverage" NAME="torch_2 Coverage Results" MODIFIED="1733584049059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/U-Net_model" />
+    <SUITE FILE_PATH="coverage/Dirty_business$on_pyTorch.coverage" NAME="on_pyTorch Coverage Results" MODIFIED="1733562814479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/U-Net_model" />
   </component>
 </project>

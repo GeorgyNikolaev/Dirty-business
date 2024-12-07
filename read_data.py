@@ -54,7 +54,7 @@ def read() -> (np.array, np.array):
         binary_mask.reshape((len(binary_mask), len(binary_mask[0]), 1))
         y_data.append(binary_mask)
 
-    return (np.array(x_data, dtype=float), np.array(y_data, dtype=float))
+    return np.array(x_data, dtype=float).reshape(len(x_data), 3, len(x_data[0]), len(x_data[0][0])), np.array(y_data, dtype=float).reshape(len(x_data), 1, len(x_data[0]), len(x_data[0][0]))
 
 
 def get_metric(data):

@@ -131,7 +131,7 @@ def iou(y_pred, y_true, threshold=0.5):
 
 
 learning_rate = 0.001
-epochs = 50
+epochs = 0
 batch_size = 4
 
 # Создаем модель и загружаем веса
@@ -149,9 +149,15 @@ print('Данные загружены')
 x_train_tensor = torch.tensor(x_train, dtype=torch.float32).permute(0, 3, 1, 2)  # (batch, height, width, channels) -> (batch, channels, height, width)
 y_train_tensor = torch.tensor(y_train, dtype=torch.float32).unsqueeze(1)  # Добавляем канал для масок
 
+x_test_tensor = torch.tensor(x_test, dtype=torch.float32).permute(0, 3, 1, 2)  # (batch, height, width, channels) -> (batch, channels, height, width)
+y_test_tensor = torch.tensor(y_test, dtype=torch.float32).unsqueeze(1)  # Добавляем канал для масок
+
 # Создание DataLoader
 train_dataset = TensorDataset(x_train_tensor, y_train_tensor)
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+
+test_dataset = TensorDataset(x_test_tensor, y_test_tensor)
+test_loader = DataLoader(test_dataset, batch_size=1, shuffle=True)
 
 # Функция потерь
 criterion = nn.BCELoss()
@@ -234,22 +240,24 @@ transform = transforms.Compose([
 ])
 
 thresholds = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-for x, y in zip(x_test, y_test):
+for x, y in test_loader:
+    # x = x.squeeze().cpu().numpy()
+    y = y.squeeze().cpu().numpy()
+    print(np.array(x).shape)
+    print(np.array(y).shape)
     print('-'*30)
     predicts = []
-    y_ = np.stack([y] * 3, axis=-1)
-    image = np.concatenate((x, y_), axis=1)
 
     image_i = []
     for i, t in enumerate(thresholds):
-        # Получаем изображение и преобразуем его в тензор
-        test_image = x
-        test_image_tensor = transform(test_image).unsqueeze(0).to(device)
-        test_image_tensor = test_image_tensor.to(torch.float32)
+        # # Получаем изображение и преобразуем его в тензор
+        # test_image = x
+        # test_image_tensor = transform(test_image).unsqueeze(0).to(device)
+        # test_image_tensor = x.to(torch.float32)
 
         # Выполняем предсказание
         with torch.no_grad():
-            predicted_mask = model(test_image_tensor)
+            predicted_mask = model(x)
 
         # Преобразуем предсказанную маску
         predicted_mask = predicted_mask.squeeze().cpu().numpy()
@@ -263,12 +271,12 @@ for x, y in zip(x_test, y_test):
     # Исходное изображение
     plt.subplot(3, 3, 1)
     plt.title(f"Исходное изображение {i + 1}")
-    plt.imshow(x)
+    plt.imshow(x.squeeze().cpu().numpy().reshape((144, 256, 3)))
 
     # Предсказанная маска
     plt.subplot(3, 3, 2)
     plt.title(f"Верная маска")
-    plt.imshow(y_, cmap="gray")
+    plt.imshow(y, cmap="gray")
 
     for i, t in enumerate(thresholds):
         plt.subplot(3, 3, i+3)
